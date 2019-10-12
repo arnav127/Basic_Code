@@ -1,21 +1,23 @@
 //star pattern
-#include<iostream.h>
-#include<conio.h>
-#include<math.h>
+#include<iostream>
+#include<cmath>
 
- void main()
-{ int i,j,n;
-clrscr();
-cout<<"STAR"<<endl;
-cout<<"*"<<endl<<"**"<<endl<<"***"<<endl<<"n lines";
-cout<<endl;
-cout<<"enter number of lines ";
-cin>>n;
-for(i=1;i<=n;i++)
+using namespace std;
+int main()
 {
-for(j=1;j<i;j++)
-{ cout<<"*"; }
-cout<<endl;
-}
-getch();
+	int i, j, n;
+	cout << "STAR" << endl;
+	cout << "*" << endl << "**" << endl << "***" << endl << "n lines";
+	cout << endl;
+	cout << "enter number of lines ";
+	cin >> n;
+	for (i = 1; i <= n; i++)
+	{
+		for (j = 1; j < i; j++)
+		{
+			cout << "*";
+		}
+		cout << endl;
+	}
+	return 0;
 }

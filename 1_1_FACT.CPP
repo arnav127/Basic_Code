@@ -1,14 +1,15 @@
 //factorial of a number
-#include<iostream.h>
-#include<conio.h>
+#include<iostream>
 
-void main()
+using namespace std;
+
+int main()
 { int fac=1,num;
-  clrscr();
+  
   cout<<"enter number whose factorial is to be printed";
   cin>>num;
   for(int i=num;i>0;i--)
   { fac=fac*i; }
   cout<<"factorial is "<<fac;
-  getch();
+  return 0;
 }

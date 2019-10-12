@@ -1,10 +1,9 @@
 //combination of a number (ncr)
-#include<iostream.h>
-#include<conio.h>
+#include<iostream>
 
-void main()
+using namespace std;
+int main()
 { int n,r,p=1,q=1,s=1,m,value,i;
-  clrscr();
   cout<<"enter n and r ";
   cin>>n>>r;
   for(i=n;i>0;i--)
@@ -16,5 +15,5 @@ void main()
   { s=s*i; } //s is (n-r)!
   value=p/(q*s);
   cout<<"value is "<<value;
-  getch();
+  return 0;
 }

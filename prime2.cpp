@@ -1,7 +1,7 @@
 //To check if entered number is prime or not
 #include<iostream>
-using namespace std;
 
+using namespace std;
  int main()
 {
 	int n,flag=0;
